@@ -8,7 +8,6 @@ namespace MemCompare
 {
 	class Program
 	{
-
 		class Allocation : IComparable
 		{
 			public string name;
