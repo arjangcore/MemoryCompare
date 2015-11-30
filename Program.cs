@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 
 namespace MemCompare
-{
+{ // test change for automatic build test
 	class Program
 	{
 		class Allocation : IComparable
@@ -45,6 +45,7 @@ namespace MemCompare
 
 		TextFileInfo ReadTextFile(string filename)
 		{
+			Console.WriteLine("ReadTextFile " + filename);
 			char[] seperatorTab = {'\t'};
 			char[] seperatorColon = {':'};
 			TextFileInfo fi = new TextFileInfo();
