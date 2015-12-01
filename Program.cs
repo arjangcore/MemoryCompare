@@ -8,7 +8,7 @@ namespace MemCompare
 { // test change for automatic build test
 	// a second change to test.
 	class Program
-	{
+	{// yet yet another change!
 		class Allocation : IComparable
 		{ // yet another change
 			public string name;
