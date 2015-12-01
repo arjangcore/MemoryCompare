@@ -6,6 +6,7 @@ using System.IO;
 
 namespace MemCompare
 { // test change for automatic build test
+	// a second change to test.
 	class Program
 	{
 		class Allocation : IComparable
