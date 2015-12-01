@@ -10,7 +10,7 @@ namespace MemCompare
 	class Program
 	{
 		class Allocation : IComparable
-		{
+		{ // yet another change
 			public string name;
 			public string pool;
 			public int size;
